@@ -10,14 +10,13 @@ img {
 
 .main {
   min-height: 100vh;
-  position: relative;
 }
 
 .cover {
-  object-fit: cover;
-  object-position: 50% 50%;
   max-width: 100%;
   min-height: 100vh;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
 .bottom-box {
@@ -26,13 +25,13 @@ img {
 }
 
 .social-media {
+  bottom: 30px;
   display: flex;
   justify-content: space-between;
-  position: absolute;
-  bottom: 30px;
   left: 0;
-  right: 0;
   max-height: 80px;
+  position: absolute;
+  right: 0;
 }
 
 .sm {
@@ -47,15 +46,15 @@ img {
 }
 
 .box {
-  position: absolute;
-  height: 300px;
   left: 0;
-  right: 0;
+  height: 300px;
+  position: absolute;
   padding: 1rem;
+  right: 0;
 }
 .sm img {
-  width: 50px;
   transition: 0.3s;
+  width: 50px;
 }
 
 .sm img:hover {
